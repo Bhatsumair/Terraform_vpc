@@ -5,7 +5,7 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region = "${var.region}"
-  profile = "terra-user"
+  profile = "default"
 }
 
 data "aws_availability_zones" "azes" {
