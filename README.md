@@ -7,7 +7,6 @@
 # Create Public Subnets
 # Create Route Table and Add Public Route
 # Associate Public Subnets to "Public Route Table"
-
 # Create Private Subnets
 #create elastic ip
 #create nat-gateway
